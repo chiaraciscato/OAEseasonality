@@ -3,10 +3,10 @@
 
 A seasonal analysis was performed on five variables, with the objective of defining the impacts of Ocean Alkalinity Enhancement on their monthly and amplitude cycle. The variables are listed below from drivers to outcome parameters:
 
-- Alkalinity (mmol/m<sup>3</sup>)
+- Alkalinity (mmol m<sup>-3</sup>)
 - pH
-- Dissolved Inorganic Carbon (mmol/m<sup>3</sup>)
-- CO<sub>2</sub> flux (mol/m<sup>2</sup>/yr)
+- Dissolved Inorganic Carbon (mmol m<sup>-3)
+- CO<sub>2</sub> flux (mol m<sup>-2 </sup>-yr)
 - Ocean pCO<sub>2</sub> (µatm)
 
 Two reference scenarios are used: SSP1-2.6 (low warming) and SSP3-7.0 (high warming).
