@@ -6,7 +6,7 @@ A seasonal analysis was performed on five variables, with the objective of defin
 - Alkalinity (mmol m<sup>-3</sup>)
 - pH
 - Dissolved Inorganic Carbon (mmol m<sup>-3)
-- CO<sub>2</sub> flux (mol m<sup>-2 </sup>-yr)
+- CO<sub>2</sub> flux (mol m<sup>-2 yr</sup>-1)
 - Ocean pCO<sub>2</sub> (µatm)
 
 Two reference scenarios are used: SSP1-2.6 (low warming) and SSP3-7.0 (high warming).
