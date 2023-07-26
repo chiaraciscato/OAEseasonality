@@ -19,7 +19,7 @@ This repository contains:
 - [domain cropping](masking);
 - [spatial weighting](weighting) of all variables;
 - seasonal analysis for [alkalinity](seasonality/1_alkalinity), [pH](seasonality/2_ph), [DIC](seasonality/3_dic), [ocean pCO<sub>2</sub>](seasonality/4_oceanpco2), [CO<sub>2</sub> flux](seasonality/5_co2flux);
-- background information on [the North Sea](north_sea)
+- background information on [the North Sea](north_sea) 
 
 
 ```
