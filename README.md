@@ -1,27 +1,27 @@
-## Impacts of Ocean Alkalinity Enhancement on the Seasonal Cycle of CO<sub>2</sub> flux and ocean pCO<sub>2</sub> in European Waters
+## Impacts of Ocean Alkalinity Enhancement on the Seasonal Cycle of the CO<sub>2</sub> flux and ocean pCO<sub>2</sub> in European Waters in a low- and a high-emission scenario
 
 
-A seasonal analysis was performed on five variables, with the objective of defining the impacts of Ocean Alkalinity Enhancement on their monthly and amplitude cycle. The variables are listed below from drivers to outcome parameters:
+A seasonal analysis was performed on five variables, with the objective of defining the impacts of Ocean Alkalinity Enhancement on their monthly (seasonal) cycle. The variables are listed below from drivers to outcome parameters:
 
-- Alkalinity (mmol m<sup>-3</sup>)
+- Alkalinity (μmol kg<sup>-1</sup>)
 - pH
-- Dissolved Inorganic Carbon (mmol m<sup>-3</sup>)
+- Dissolved Inorganic Carbon (μmol kg<sup>-1</sup>)
 - CO<sub>2</sub> flux (mol m<sup>-2</sup> yr<sup>-1</sup>)
 - Ocean pCO<sub>2</sub> (µatm)
 
 Two reference scenarios are used: SSP1-2.6 (low warming) and SSP3-7.0 (high warming).
 
-The model domain is the European coasts (excluding the Mediterranean and the Baltic seas).
+The model domain is the European coastline (excluding the Mediterranean and the Baltic seas).
 
 ### Repository content
 
-This repository contains:
-- [domain cropping](masking);
-- [spatial weighting](weighting) of all variables;
-- seasonal analysis for [alkalinity](seasonality/1_alkalinity), [pH](seasonality/2_ph), [DIC](seasonality/3_dic), [ocean pCO<sub>2</sub>](seasonality/4_oceanpco2), [CO<sub>2</sub> flux](seasonality/5_co2flux);
-- background information on [the North Sea](north_sea) 
+This repository contains three folders:
 
-## Authors
+- the [scripts](scripts) folder contains three python scripts that process and plot: a geographical map of [OAE addition](scripts/OAEaddition), a latitudinal transect of the [North Sea](scripts/northSeaMap.ipynb), the seasonal analysis of [all five variables](scripts/process&plot.ipynb). 
+- the [thesisMaterial](thesisMaterial) folder contains the MSc thesis report in its [latex](thesisMaterial/thesisReport) as well as [PDF](thesisMaterial/thesisReport.pdf) version, and the [thesisMaterial/PPT] that presented my results in the final discussion.
+- the [out](out) folder contains the final figures conceived to show the results.
+
+## Author
 
 - [@chiaraciscato](https://github.com/chiaraciscato)
 
