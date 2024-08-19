@@ -17,13 +17,13 @@ The model domain is the European coastline (excluding the Mediterranean and the 
 
 This repository contains three folders:
 
-- the [scripts](scripts) folder contains three python scripts that process and plot: a geographical map of [OAE addition](scripts/OAEaddition), a latitudinal transect of the [North Sea](scripts/northSeaMap.ipynb), the seasonal analysis of [all five variables](scripts/process&plot.ipynb). 
+- the [scripts](scripts) folder contains three python scripts that process and plot: a geographical map of [OAE addition](scripts/OAEaddition.ipynb), a latitudinal transect of the [North Sea](scripts/northSeaMap.ipynb), the seasonal analysis of [all five variables](scripts/process&plot.ipynb). 
 - the [thesisMaterial](thesisMaterial) folder contains the MSc thesis report in its [latex](thesisMaterial/thesisReport) as well as [PDF](thesisMaterial/thesisReport.pdf) version, and the [thesis presentation](thesisMaterial/thesisPres.pdf) that showcased my results in the final discussion of my MSc programme.
-- the [out](out) folder contains the final figures conceived to show the results.
+- the [out](out) folder contains the final figures conceived to showcase the results.
 
 ### To keep in mind
 
-The python scripts assume that the input data have already been sliced to the region of focus, namely the European coastline. The exact extremes are noted in the script that addresses the seasonal analysis of the variables. 
+The python scripts assume that the input data have already been sliced to the region of focus, namely the European coastline. The exact extremes are noted in the script that addresses the seasonal analysis of the variables. Additionally, as values over land are set to zero, a mask should be applied to all variables to exclude land values from the calculations. 
 
 ## Author
 
